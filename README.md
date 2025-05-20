@@ -9,6 +9,7 @@ The model is trained using TensorFlow and Keras on a labeled dataset of facial e
 The dataset used for training and testing the model is a labeled collection of facial emotion images.
 
 📥 Click here to download the dataset from Google Drive
+https://drive.google.com/drive/folders/1lLbJjyaTqV__oiA-Y-ddYSCgGVJoRM0k?usp=drive_link
 
 ⚠️ Limitations
 While the model performs well overall, emotions like "fear" and "surprise" can sometimes be misclassified. This is because facial expressions alone don’t always capture the full context—body language and posture also play a key role in distinguishing subtle emotions. So expect some limitations in those categories.
