@@ -18,8 +18,8 @@ if gpus:
         print(e)
 
 # Paths
-train_dir = r"C:\Users\ryash\OneDrive\Desktop\data science and shi\Emotion-Recognition-master\Emotion-Recognition-master\train"
-test_dir = r"C:\Users\ryash\OneDrive\Desktop\data science and shi\Emotion-Recognition-master\Emotion-Recognition-master\test\test\test"
+train_dir = r"train" #insert your path here
+test_dir = r"test" #insert your path here
 
 # Parameters
 image_size = (48, 48)
@@ -72,5 +72,5 @@ model.compile(optimizer=Adam(), loss='categorical_crossentropy', metrics=['accur
 history = model.fit(train_ds, validation_data=val_ds, epochs=15)
 
 # Save model (with full custom object compatibility)
-save_path = r"C:\Users\ryash\OneDrive\Documents\Data Science project\Emotion detection\emotion_mobilenet_model.keras"
+save_path = r"emotion_mobilenet_model.keras" #insert your path here
 model.save(save_path)
