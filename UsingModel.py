@@ -5,8 +5,8 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 import numpy as np
 
 # Set the paths
-model_path = r"C:\Users\ryash\OneDrive\Documents\Data Science project\Emotion detection\emotion_mobilenet_model.keras"
-img_path = r"C:\Users\ryash\OneDrive\Documents\Data Science project\Emotion detection\image.png"
+model_path = r"emotion_mobilenet_model.keras"
+img_path = r"image.png"
 
 # Load the model (no need for custom_objects if using .keras format)
 model = load_model(model_path)
